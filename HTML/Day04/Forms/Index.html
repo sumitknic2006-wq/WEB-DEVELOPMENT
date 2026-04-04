@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <label for="name">Name:</label> <!--label means isme kya bharna hai->name,age-->
+        <input type="text" name="userNmae" id="name"> <!--type -> kis type me likhna hai,-> text->name,number->age-->
+
+        <br><br>
+        <label for="fname">Father Name:</label>
+        <input type="text" name="userFname" id="fname"> <!--name->name attribute -> use kiyon karte hai kiyonki jab bhi hum information ko database and backend ko bhej rha hu  ke ander user ka value jata hai, us name ke corresponding vlue or key kya ahi-->
+
+        <br><br>
+        <label for="age">Age:</label>
+        <input type="Number" nmae="userAge" id="age">
+
+        <br><br>
+
+        <label for="pass">Password:</label>
+        <input type="Password" name="Password" id="pass">
+
+        <br><br>
+
+        <!-- radio means ->jitna option denge unme se ek hi per mark hoga -> male, female ,...-> jo mark karte hai. -->
+        <label for="Male">Male</label> <!--for means male per click -> to wo automaticly mark ho jata hai-->
+        <input type="radio" name="gender" id="Male" value="male"> <!--for or id se -> label and input apas me link hai.-->
+
+        <label for="Female">Female</label>
+        <input type="radio" name="gender" id="Female" value="female">
+
+        <label for="Other">Other</label>
+        <input type="radio" name="gender" id="Other" value="other">
+
+        <br><br>
+        <!--Checkbox-> janha per multiple value mark karta hu-->
+        <label for="c++">C++</label>
+        <input type="checkbox" name="subject" id="c++" value="c++">
+
+        <label for="python">Python</label>
+        <input type="checkbox" name="subject" id="python" value="python">
+
+        <label for="java">Java</label>
+        <input type="checkbox" name="subject" id="python" value="Java">
+
+        <label for="javascript">Javascript</label>
+        <input type="checkbox" name="subject" id="Javascript" value="Javascript">
+
+    
+        <br><br>
+        <input type="submit">
+        
+
+
+    </form> 
+</body>
+</html>
