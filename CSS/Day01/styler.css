@@ -1,0 +1,116 @@
+
+/* Tag element selector */
+/* h1{
+    background-color:pink;
+}
+
+ul{
+    background-color: aqua;
+}
+
+h2{
+    background-color: blue ;
+} */
+
+/* id base selection */
+
+/* #first{
+    background-color: blue;
+}
+
+#second{
+    background-color: pink;
+} */
+
+/* class based selection ->class select karne ka tarika hai-> .id name */
+
+/* .third{
+    background-color: green;
+}
+
+.fourth{
+    background-color: aquamarine;
+} */
+
+/* Group base selection */
+
+/* h1, .fourth, #first{
+    background-color: green;
+} */
+
+/* Red Green Blue(RGB) -> (R->(0-255),G->(0->255),B->(0->255),A->alpha->transparent value) */
+
+/* color selection */
+
+/* h1{
+    background-color: rgba(23, 125, 193, 0.5); 
+} */
+
+/* hsl -> (hue(0-360), saturation(0-100)%, lightness(0-100)%) */
+
+/* h2{
+    background-color: hsla(110, 72%, 40%, 0.524);
+} */
+
+/* hexadecimal form -> 4bits se one number darsa sakte hai */
+/* h1{
+    background-color: #639747;
+} */
+
+/* font -> size increasing and decreasing, 1pxel-> 3bytes memory leta hai, row*col pixel  */
+/* pixel -> not fixed size , ->dependent in screen */
+
+h1{
+    font-size: 80px;
+}
+
+/* list -> any list ka size hoga wo aapna parent ke hisab se */
+
+ul{
+    font-size: 20px
+}
+li{
+    font-size: 1em;
+}
+
+/* root pxel */
+html{
+    font-size: 40px;
+}
+
+/* h2{
+    font-size: 3rem;
+} */
+
+/* viewport width-> ka size 1%,2%,... */
+
+h2{
+    font-size:2vw;
+}
+
+/* viewport height->uper se niche tak */
+li{
+    /* font-size: 5vh; */
+    font-size: 50%;
+}
+
+/* font-family */
+h2{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* font-weight -> 100 to 900 */
+h2{
+    font-weight: 400;
+}
+
+/* font-style */
+h2{
+    font-style: italic;
+}
+
+
+
+
+
+
