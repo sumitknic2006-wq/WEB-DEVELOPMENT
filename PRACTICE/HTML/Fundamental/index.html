@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<!-- 
+DAY 3 MASTER TEMPLATE 
+TOPIC:
+Lists, Tables, Semantic Layout
+
+This 
+ -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <!-- ======================== -->
+    <!-- HEADER --> <!-- HEADER Means top of the page-->
+    <!-- ======================== -->
+
+    <header>
+        <!-- 
+        <header> contains:
+        Logo, title, intro
+         -->
+
+        <h1>My Website</h1>
+        <p>Learning HTML Day 3</p>
+
+    </header>
+
+    <hr>
+
+        <!-- ====================== -->
+         <!-- NAVIGATION -->
+        <!-- ====================== -->
+
+        <nav>
+            <!-- 
+            Navigation links
+            used for menu
+             -->
+
+            <a href="#">Home</a> |
+            <a href="#">Content</a>
+
+        </nav>   
+        
+        <hr>
+
+        <!-- ================== -->
+
+        <!-- MAIN CONTENT -->
+        <!-- ================= -->
+
+        <main>
+            <section>
+                <h2>Lists Example</h2>
+
+                <!-- UNORDERED LIST -->
+
+                <h3>Unordered Lists (Shopping List)</h3>
+
+                <ul type="square"> <!-- circle, square, disck in use-->
+                    <li>Milk</li>
+                    <li>Bread</li>
+                    <li>Butter</li>
+                </ul>
+
+                <!-- ORDERED LIST -->
+
+                <h3>Ordered Lists(steps)</h3>
+
+                <ol type="i" start="5" reversed > <!-- type -> 1, A, a, I, i-> kis type ka number use ker sakte hai   ,  start -> khan se start kar rhe ho, reversed -> ulta ho jata hai-->
+                    <li>Wake Up</li>
+                    <li>Study HTML</li>
+                    <li>Practice coding</li>
+                </ol>
+
+                <h3>Nested List</h3>
+
+                <ul>
+                    <li>Fruits
+                        <ul>
+                            <li>Apple</li>
+                            <li>Banana</li>
+                        </ul>
+                    </li>
+                    <li>Vegetables
+                        <ul>
+                            <li>Potato</li>
+                            <li>Onion</li>
+                        </ul>
+                    </li>
+                </ul>
+            </section>
+            <hr>
+
+            <section>
+                <h2>Table Example</h2>
+
+                <table border="1">
+
+                    <!-- TABLE HEADER -->
+                     <thead>
+                        <tr>
+                           <th>Name</th> <!--th -> table head-->
+                           <th>Roll no.</th>
+                           <th>Subject</th>
+                           <th>Marks</th>
+                        </tr>
+                     </thead>
+
+                    <!-- TABLE BODY -->
+                    <tbody>
+                        <tr>
+                            <td>Aniket</td>
+                            <td>34</td>
+                            <td>Math</td>
+                            <td>95</td>
+                        </tr>
+                        <tr>
+                            <td>Rahul</td>
+                            <td>23</td>
+                            <td>Science</td>
+                            <td>88</td>
+                        </tr>
+
+                        <tr>
+                            <td>Sumit</td>
+                            <td>12</td>
+                            <td>Progrmming</td>
+                            <td>90</td>
+                        </tr>
+                        <tr>
+                            <td>Sachin</td>
+                            <td>10</td>
+                            <td>Arts</td>
+                            <td>91</td>
+                        </tr>
+                    </tbody>
+
+                    <!-- TABLE FOOTER -->
+                    <tfoot>
+                        <tr>
+                            <td colspan="3">Total</td> <!--colspan -> col ko merge kerna, left to right, -> rowspan means row ko merge karna, ->top to button-->
+                            <td>183</td>
+                        </tr>
+                    </tfoot>
+                </table>
+
+                <!-- ROWSPAN EXAMPLE -->
+
+                <h3>Rowspan Example</h3>
+
+                <table border="1">
+
+                    <tr>
+                        <th>Name</th>
+                        <th>Day</th>
+                        <th>Subject</th>
+                    </tr>
+
+                    <tr>
+                        <td rowspan="2" >Aniket</td>
+                        <td>Monday</td>
+                        <td>Math</td>
+                    </tr>
+
+                    <tr>
+                        <td>Tuesday</td>
+                        <td>Science</td>
+                    </tr>
+
+                    <tr>
+                        <td>Sumit</td>
+                        <td>Wed</td>
+                        <td>Programming</td>
+                    </tr>
+
+
+
+                </table>
+
+
+
+            
+            </section>
+        </main>
+
+    
+</body>
+</html>
