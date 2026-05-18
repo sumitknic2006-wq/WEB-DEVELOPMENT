@@ -102,6 +102,10 @@ Then modify paths
     height="200"
     >
 
+    <br><br>
+
+    <!-- CLICKABLE IMAGE -->
+
    <a href="https://www.freepik.com/icon/shipping_1038368#fromView=family&page=1&position=2&uuid=82b4e26a-5f12-412a-98b3-daf6e12b8913">
     <img
     src="click_image.png"
@@ -110,6 +114,19 @@ Then modify paths
     height="200"
     >
    </a>
+
+   <!--  
+   Image inside <a>
+    makes image clickable.
+   -->
+
+   <hr>
+
+    <!-- =============================== -->
+    <!-- FILE PATH EXAMPLES -->
+    <!-- =============================== -->
+
+    <h2>File Path Exmples</h2>
 
    <!-- SAME FOLDER -->
     <img
@@ -121,6 +138,29 @@ Then modify paths
     <br><br>
 
     <!-- ================ -->
+    <!-- SUBFOLDER  -->
+   
+    <img
+    src="image/photo.jpg"
+    alt="Subfolder image"
+    width="200"
+    >
+
+    <br><br>
+
+    <!-- PARENT FOLDER -->
+    
+    <img
+    src="../parent_image.jpg"
+    alt="Parent Folder Image"
+    width="200"
+    >
+
+    <hr>
+
+    <!-- ============================= -->
+    <!-- AUDIO SECTION -->
+    <!-- ============================= -->
 
     <h2>Audio Player</h2>
 
@@ -136,12 +176,41 @@ Then modify paths
         Your browser does not support 
     </audio>
 
+    <hr>
+
+    <!-- ============================ -->
+    <!-- VIDEO SECTION -->
+    <!-- ============================ -->
+
+    <h2>Video Player</h2>
+
+    <!--  
+    <video> tag plays video.
+
+    controls:
+    Shows controls.
+
+    width:-
+    video size
+    -->
+
     <video controls height="200px">
         <source src="rohit.mp4" type="video/mp4">
+
+        Your browser does not support video.
     </video>
 
+    <hr>
+
+    <!-- ========================== -->
+    <!-- YOUTUBE EMBED -->
+    <!-- ========================= -->
+     <h2>YouTube</h2>
     <!-- 
-    <iframe> used to em
+    <iframe> used to embed YouTube.
+
+    Replace VIDEO_ID
+    with actual YouTube ID.
     -->
 
     <iframe
@@ -156,6 +225,54 @@ Then modify paths
     <!-- or -->
 
    <iframe width="500" height="300" src="https://www.youtube.com/embed/1pcikNlDB-4?list=PLQEaRBV9gAFsistSzOgnD4cWgFGRVda4X" title="Introduction To Web Development | Internet Working | Web Development Full Course" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+   <hr>
+
+    <!-- =============================== -->
+    <!-- MULTIPLE LINKS -->
+    <!-- =============================== -->
+
+    <h2>Useful Links</h2>
+
+    <ul>
+
+    <li>
+    <a href="https://developer.mozilla.org" target="_blank">
+    MDN Web Docs
+    </a>
+    </li>
+
+    <li>
+    <a href="https://www.w3schools.com" target="_blank">
+    W3Schools
+    </a>
+    </li>
+
+    <li>
+    <a href="https://stackoverflow.com" target="_blank">
+    Stack Overflow
+    </a>
+    </li>
+
+    </ul>
+
+    <hr>
+
+    <!-- =============================== -->
+    <!-- FOOTER -->
+    <!-- =============================== -->
+
+    <p>
+
+    End of Day 2 HTML Practice.
+
+    </p>
+
+    </body>
+
+    </html>
+
+
 
    <!-- 
    Create:
@@ -173,7 +290,11 @@ Then modify paths
 
    Include:
 
-   Navigation
+   Navigation menu
+   Images
+   Video
+   Audio
+   YouTube iframe
     -->
 </body>
 </html>
