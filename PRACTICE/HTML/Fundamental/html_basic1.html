@@ -5,6 +5,11 @@ DOCTYPE Declaration:
 This tells the browser that we are using HTML5.
 It ensures the browser renders the page correctly.
 Always write this as the FIRST line in every HTML file.
+
+Purpose:
+browser ko correct HTML version batana
+Webpage ko proper standard mode me render karna
+Compatibility issues avoid karna
 -->
 <html lang="en">
 <!-- 
@@ -21,6 +26,9 @@ Always write this as the FIRST line in every HTML file.
     <head> section:
     Contains metadata about the webpage.
     Metadata is NOT displayed on the page.
+
+    <head> HTML document ka wo section hota hai jisme webpage ki information (metadata) rakhi jati hai.
+    Ye information browser ke liye hoti hai, directly webpage par visible nahi hoti.
     -->
     <meta charset="UTF-8">
     <!--
@@ -28,12 +36,18 @@ Always write this as the FIRST line in every HTML file.
     Defines character encoding.
     Allows special characters to display correctly.
     Always include this.
+
+    <meta charset="UTF-8"> browser ko batata hai ki webpage me kaunsa character encoding use ho raha hai.
+
     -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- 
     Viewport Meta Tag:
     Marks the webpage responsive.
     Important for mobile devices.
+
+    name="viewport" → Screen/view area ko control karta hai
+
      -->
 
     <meta name="description" content="Day 1 HTML Basics Learning Page">
@@ -125,15 +139,15 @@ Used when text must continue on next line.
 <h2>Text Formatting Examples</h2>
 
 <p>
-<strong>This text is strong (important)</strong>
+<strong>This text is strong (important)</strong> <!-- strong-> this tag use in text ko bold dikhne ke liye use hota hai -->
 </p>
 
 <p>
-<em>This text is emphasized</em>
+<em>This text is emphasized</em> <!-- <em> tag HTML me text ko emphasize (zor dene) ke liye use hota hai. , italic form me hota hai-->
 </p>
 
 <p>
-<b>This text is bold</b>
+<b>This text is bold</b> <!-- b -> this tage is use in bold karne ke liye -->
 </p>
 
 <p>
