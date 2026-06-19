@@ -1,0 +1,38 @@
+# background-color -> Any type color choose , jo content likho uske background ka color.
+# height -> content ki chodai.
+# width -> content ki lambai.
+# border -> content me border ko add ker sakte hai.
+# padding -> all direction me apply, between of the border and content , padding: top right bottom left , or padding: top & bottom right & left;.
+# margin -> all direction me apply , jo is element ka border aur dusre element ka border ke bich ka distance example:- h1 and h2 , margin: top right bottom left;.
+# border-radius -> border ke uper uske radiush ko apply karna.
+# color -> text ka color.
+# *(universal selector) -> jitne bhi element persent hai is file ke ander -> usme pahele ye wale margin lga do margin: 0px , padding: 0px;.
+
+# Inline Element vs Block Element
+
+# Inline Element:- anchor , span tag
+-> full width ko nahi leta hai but jitna usko chahiye utna hi leta hai.
+-> space availebel -> no new line se start,but agar space availebel nahi hai -> to new line se start.
+-> Isme height and width apply nahi ker sakte hai.
+-> Isme padding and margin sirf horizontal way me apply honge , vertical way me nahi apply.
+
+
+# Block Element:- div, h1, h2, h3, p tag
+-> full width ko leta hai.
+-> always new line se start hote hai.
+-> Isme height and width apply ker sakte hai.
+-> Isme padding and margin dono apply ker sakte hai.
+
+# kisi block elment ko inline bnana hai to kaise banayenge
+-> display: inline;
+
+# inline element ko block element banana hai.
+-> display: block;
+
+# box-sizing: border-box; -> border se mapna start karunga , height and width
+-> border-box = border-width+padding-width+content-width = width(300px)
+
+# box-sizing: center-box; -> center walah height and width
+-> content-box = content-width = 300px
+
+

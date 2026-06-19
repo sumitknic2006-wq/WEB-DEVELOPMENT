@@ -1,0 +1,43 @@
+h1 {
+    background-color: orange;
+    height: 200px;
+    width: 200px;
+
+    /* Border -> left , right, bottom, top */
+    /* border-width: 5px;
+    border-style: solid; 
+    border-color: green; */
+
+    /* short form me border write -> any order*/
+    /* border: 5px solid green;
+    padding: 10px;
+    margin: 30px; */
+
+    border-top: 10px solid blueviolet;
+    /* padding-top: 10px; */
+    /* short */
+    padding: 10px 20px 30px 40px;
+
+    /* margin-top: 50px; */
+    margin: 50px 20px 30px 40px;
+
+    /* border-radius */
+    border-radius: 20px;
+
+
+
+
+
+}
+
+h2 {
+    background-color: pink;
+    border: 2px solid blue;
+}
+
+p{
+    background-color: aquamarine;
+    padding: 20px;
+    border: 5px solid blue;
+    margin: 20px;
+}
