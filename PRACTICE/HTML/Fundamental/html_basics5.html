@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+
+<!-- 
+DAY 6 MASTER TEMPLATE
+TOPICS:
+Modern HTML5 Elements
+-->
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Day 6 - Modern HTML5</title>
+
+
+</head>
+
+<body>
+
+<!-- ================================= -->
+<!-- PAGE HEADER -->
+<!-- ================================= -->
+
+<header>
+
+    <h1>Modern HTML5 Elements</h1>
+
+    <p>
+        Learning interactive and multimedia HTML elements.
+    </p>
+
+</header>
+
+<hr>
+
+<!-- ================================= -->
+<!-- FIGURE & FIGCAPTION -->
+<!-- ================================= -->
+
+<section>
+
+<h2>Figure and Figcaption</h2>
+
+<!-- 
+<figure> groups media content.
+
+<figcaption> adds caption.
+-->
+
+<figure>
+
+    <img 
+        src="nature.jpg" 
+        alt="Nature Image"
+        width="400"
+    >
+
+    <figcaption>
+        Beautiful nature landscape image.
+    </figcaption>
+
+</figure>
+
+</section>
+
+<hr>
+
+<!-- ================================= -->
+<!-- DETAILS & SUMMARY -->
+<!-- ================================= -->
+
+<section>
+
+<h2>Expandable FAQ Section</h2>
+
+<!-- 
+<details> creates expandable area.
+
+<summary> is clickable title.
+-->
+
+<details>
+
+    <summary>What is HTML?</summary>
+
+    <p>
+        HTML stands for HyperText Markup Language.
+        It is used to create webpage structure.
+    </p>
+
+</details>
+
+<br>
+
+<details>
+
+    <summary>What is CSS?</summary>
+
+    <p>
+        CSS is used for styling webpages.
+    </p>
+
+</details>
+
+<br>
+
+<details>
+
+    <summary>What is JavaScript?</summary>
+
+    <p>
+        JavaScript adds interactivity to websites.
+    </p>
+
+</details>
+
+</section>
+
+<hr>
+
+<!-- ================================= -->
+<!-- PROGRESS BAR -->
+<!-- ================================= -->
+
+<section>
+
+<h2>Progress Bar Example</h2>
+
+<!-- 
+<progress> shows task completion.
+
+value:
+Current progress
+
+max:
+Maximum value
+-->
+
+<p>HTML Course Progress:</p>
+
+<progress value="70" max="100"></progress>
+
+<p>Project Upload Progress:</p>
+
+<progress value="45" max="100"></progress>
+
+</section>
+
+<hr>
+
+<!-- ================================= -->
+<!-- METER TAG -->
+<!-- ================================= -->
+
+<section>
+
+<h2>Meter Tag Example</h2>
+
+<!-- 
+<meter> displays measurement.
+-->
+
+<p>Battery Level:</p>
+
+<meter value="0.8">80%</meter>
+
+<br><br>
+
+<p>Student Performance:</p>
+
+<meter 
+    value="85"
+    min="0"
+    max="100"
+    low="20"
+    high="80"
+    optimum="75"
+></meter>
+
+<br><br>
+
+<p>Disk Usage:</p>
+
+<meter 
+    value="6"
+    min="0"
+    max="10"
+></meter>
+
+</section>
+
+<hr>
+
+<!-- ================================= -->
+<!-- CANVAS -->
+<!-- ================================= -->
+
+<section>
+
+<h2>Canvas Example</h2>
+
+<!-- 
+<canvas> used for drawing graphics.
+
+Canvas itself is blank.
+JavaScript draws inside it.
+-->
+
+<canvas 
+    id="myCanvas"
+    width="400"
+    height="200"
+    style="border:1px solid black;"
+>
+</canvas>
+
+<!-- 
+Basic JavaScript for drawing
+inside canvas.
+-->
+
+<script>
+
+const canvas = document.getElementById("myCanvas");
+
+const ctx = canvas.getContext("2d");
+
+/* DRAW RECTANGLE */
+
+ctx.fillStyle = "red";
+
+ctx.fillRect(0, 0, 150, 100);
+
+
+</script>
+
+</section>
+
+<hr>
+
+<!-- ================================= -->
+<!-- HTML ENTITIES -->
+<!-- ================================= -->
+
+<section>
+
+<h2>HTML Entities</h2>
+
+<!-- 
+Entities display special characters.
+-->
+
+<p>Less Than Symbol: &lt;</p>
+
+<p>Greater Than Symbol: &gt;</p>
+
+<p>Copyright Symbol: &copy;</p>
+
+<p>Trademark Symbol: &trade;</p>
+
+<p>Non-Breaking Space Example:</p>
+
+<p>Hello&nbsp;&nbsp;&nbsp;World</p>
+<p>Hello                               World</p>
+
+</section>
+
+<hr>
+
+<!-- ================================= -->
+<!-- SPECIAL CHARACTERS -->
+<!-- ================================= -->
+
+<section>
+
+<h2>Special Characters</h2>
+
+<p>Currency Symbols:</p>
+
+<ul>
+
+<li>Dollar: $</li>
+
+<li>Euro: &euro;</li>
+
+<li>Yen: &yen;</li>
+
+<li>Rupee: ₹</li>
+
+</ul>
+
+</section>
+
+<hr>
+
+<!-- ================================= -->
+<!-- FOOTER -->
+<!-- ================================= -->
+
+<footer>
+
+<p>
+End of Day 6 HTML5 Practice
+</p>
+
+</footer>
+
+</body>
+
+</html>
