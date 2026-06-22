@@ -1,0 +1,21 @@
+# Grid css:- 2 Diamension , grid means create in matrix persent in row and column.
+-> Parent:- Grid-container , grid kaisa hoga  , kitne row and column hai.
+-> items:- grid-items
+
+-> display: grid; - Jab kisi container par display: grid lagate hain, to uske andar ke elements ek grid layout me organize ho jate hain.
+
+# grid-template-rows: kitna rows lena chahte hai.
+
+# fr(fraction unit):-
+-> Ye available space ko parts (fractions) me divide karta hai.
+-> fraction hum grid ke ander istemal karte hai. that likes example:- 1fr 1fr.
+-> .container {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+Meaning:
+Total parts = 1 + 2 = 3
+Pehla column = 1/3 space
+Dusra column = 2/3 space
+
+# grid-template-columns: kitna column lena chahte hai.

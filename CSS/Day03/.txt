@@ -1,0 +1,44 @@
+# priority of css(cascading style sheet):- Inline > enternal or external -> ordering matter karti hai
+
+# Id -> kisi particular element ko target karti hai, specific , single element ke single id hoti hai.
+-> priority:- !important(external) > inline css > id > class > tag(h1, h2 ,p ..)
+
+# Agar aap same element ko target kar rhe ho jo bad me aaya hai wo apply hoga.
+
+            # Position #
+1.static  2.relative 3.fixed 4.sticky 5.absolute
+
+# relative: -> The element remains in the normal document flow, but it can be moved from its original position using top, bottom, left, or right.
+position: relative;
+left: 100px; -> left se 100px tak
+-> apne position ko reserve kerke rakhta hai khe wahan per koi content na ho.
+
+# fixed: -> The element is positioned relative to the browser window and stays in the same place even when the page is scrolled.
+position: fixed;
+top: 50px -> top se 50px tak
+-> Isme position reserve nahi rhta hai but jab apni position chod deta hai to wha per koi aur element aa sata hai.
+
+# sticky: -> The element behaves like relative until a specified scroll position is reached, then it becomes fixed.
+position: sticky;
+top: 10px;
+-> top se 10px per sticky ho jayega.
+
+# Absolute: -> The element is removed from the normal document flow and positioned relative to its nearest positioned parent (relative, absolute, fixed, or sticky).
+position: absolute;
+left: 50px;
+top: 0px;
+-> jo iska relative uske corresponding hoga.
+-> iska ancestor position: relative, sticky, fixed.
+-> agar ancestor position set nahi karte hai to -> window ke crresponding set ho jaiyega.
+
+# static: -> static is the default position value of all HTML elements. The element follows the normal page flow.
+.box {
+    position: static;
+    border: 2px solid black;
+}
+
+# z-index:- override
+-> jiska jayeda z-index wahi display per dikhega.
+z-index: 10;
+
+

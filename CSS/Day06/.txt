@@ -1,0 +1,17 @@
+# media quary:- aap apne content ko kisi bhi tarike se so kara sakte hai.
+
+# if(device width>900px) -> css apply kar dunga.
+# if(device<900 && 600<device) -> css apply
+else -> css apply
+
+# @media screen:- isko hum use karte hia website ko responsive banane ke liye.
+-> @media screen and (max/min-width:1px).
+
+# shadow:- true depth provide karta hai.
+
+# box-shadow:- (offset-x offset-y blur-radius spread-radius  color)
+-> box-shadow: 10px 10px 3px 10px blue.
+-> spread radius:- ye khta hai harek direction jina px denge utn bada do.
+
+# overflow:- content ko hide and scroll bhi ker sakte hai.
+-> overflow: scroll;

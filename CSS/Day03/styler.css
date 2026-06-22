@@ -1,0 +1,38 @@
+/* *{
+    margin: 0px;
+    padding: 0px;
+} */
+
+h2{
+    background-color: orange;
+    position: relative;
+    left:100px;
+    /* bottom: 50px; */
+    /* top: 100px; */
+    /* right: 0px */
+}
+
+h3{
+    background-color: pink;
+    position: fixed;
+    top: 0px;
+    left: 50px;
+    z-index: 15;
+}
+
+h4{
+    background-color: brown;
+    position: sticky;
+    top: 10px;
+}
+
+p{
+    background-color: chartreuse;
+    position: absolute;
+    left: 50px;
+    top: 0px;
+    margin: 0px;
+    z-index: 20;
+
+}
+

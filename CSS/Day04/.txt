@@ -1,0 +1,39 @@
+# flexBox:- Layout -> 1 Diamension
+-> parent(container) - child(item) relation
+-> parent dicide karega ki iske children kaise arrange honge iske ander.
+-> flex-direction: row & col
+
+# display: flex; :- Jis element par display: flex lagaya jata hai, wo Flex Container ban jata hai aur uske andar ke elements Flex Items kehlate hain.
+
+# justify-content:- content ko kha leke jana hai -> start, center , end.
+-> space-around:- content ke bich me margin introduce hota hai.
+-> space-between:- first->start , last->end , baki ke bich me equal space hoga.
+-> space-evely:- sabke bich same distance divide karta hai.
+-> justify-content:- always main axis ke around kam karte hai.
+
+# row:- main axis(horizontal) , cross axis(vertical).
+# column:- main axis(vertical) , cross axis(horizontal).
+
+# align-items:- always work around the cross axis(row -> vertical , column-> horizontal) 
+
+# flex-wrap:- website ko responsive banata hai. then can used wrap, nowrap, ...etc.
+
+# gap:- content ke bich me kitna gap rakhna chahte hai.
+
+# flex-grow:- jitna hamare pas  khali space bacha hai usko flex-grow ki help se consume ker sakte hai.
+
+# flex-shrink:- fastly chota hona hai to use in fle-shrink.
+
+# flex-basis:- flex-direction(row)-> width increase , flex-direction(column)-> increase in height.
+-> ye pahele wala height and width ko override ker deta hai. jitna persent me flex-basis me liye hai wahi use hoga.
+
+# align-self:- persionaly one ko kisi bhi direction me le ja sakte ho. start , end ...
+
+# container in use:- flex, flexdirection, justify, align, flexwarp.
+#child(fleitem):- grow, shrink, align self.
+
+# vh(viewport height):- height: 100vh; ka matlab hai element ki height poori screen (viewport) ke barabar ho jayegi.
+-> 100vh = screen ki 100% height
+-> 50vh = screen ki 50% height
+-> 25vh = screen ki 25% height
+
