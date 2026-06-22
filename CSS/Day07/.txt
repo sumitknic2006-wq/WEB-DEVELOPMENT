@@ -1,0 +1,21 @@
+# Animation of css:- CSS Animation ka use kisi element ko move, rotate, fade, zoom ya kisi bhi tarah animate karne ke liye hota hai.
+
+# Animation to create:-
+-> animation-name: moving -> name kya rakhna chahte ho.
+-> animation-duration: 3s; -> kitna time me animation duration hone wali hai.
+-> animation-iteration-count: 1,2,...,infinite; -> aap kitne bar animation ko chalana chahte ho.
+-> animation-timing-function: ease, linear, ease-in, ease-out, ease-in-out, cubic-bezier(n,n,n,n); - animation ka speed kaise rkhna chahte ho ye batata hai.
+-> animation-direction: alternate, reverse, normal,...; -> kis direction me animation ko chalana hai.
+-> animation-delay: 2s,3s,4s,...; -> kitna late se animation start karna hai ye batata hai.
+-> animation fill-mode: forwards, backwards, both; -> jab animation start ho gya hai to animation start hone se pahele aur animation end hone ke bad apki styling kya hogi us div ke uper to usi ko fill-mode kahte hai.
+
+@keyframes moving{
+    from{ -> khanh se
+
+    }
+    to{ -> khanh tak
+
+    }
+}
+
+# Video:- 1 second me 30fps(frame per second) ko store karta hai. that likes example 10second -> 300 image store karega.
