@@ -1,0 +1,20 @@
+# hover:- jab cursor content ke uper jata hai to background-color me change dikta hai usi ko hover kahte hai.
+
+# Transition:- transition ka use kisi property ke change ko smoothly animate karne ke liye hota hai.
+-> transition-property:- height,width, background-color , all, ...etc.
+-> transition-duration:- kisi property per kitna der ke liye lagana hai.
+-> transition-timing-function:- ease, ease-in, ... -> speed style
+-> 1sec -> delay.
+
+# difference between transition and animation
+-> transition :- triger moment jab hum uspe jayenge nahi tab-tak change nahi hoga.
+-> animation:- automatically change ho jata hai.
+
+# Transform:- kisi card ko rotate(1deg) , increase ,decrease , x , y , skew(0deg) and position ko change ker sakta hua.
+# scale:- height and width ko increse and decrease hoker jump to increase ker deta hai.
+-> transform: scale x or y or both(1,2,...);
+
+# perspective:- means hota hai jhan pe jo original card aur mer eye tak distance hai.
+-> add karna jaruri hota hai aur kha karna hai parent me.
+
+# transform: translate(100px) -> original position se 100px dur ho jayega.
