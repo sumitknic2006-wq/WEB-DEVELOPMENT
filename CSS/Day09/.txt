@@ -1,0 +1,12 @@
+# margin: auto -> sirf left and right me lagta hai. dono ko equal pats me batta hai aur center me chala jata hai content.
+
+# block element hai uske ander agar inline elemnt persent hai to agar hum tex-align: center ker diya to jo bhi usme element persent honge wo center me chalaye jayenge.b -> horizontal axis ke around.
+
+# text-decoration: none; -> jo anchor tag me line hota hai usko hata deta hai.
+
+# filtor:- kisi icon or some content per color change karna , jab hum click karenge to original me aa jata hai.
+
+# nav bar:- ek semantic meaning create karta hai.
+-> id ko hum # se denote karte hai.
+
+# text-align: justify; -> kisi bhi content ko sequence me lagata hai.
