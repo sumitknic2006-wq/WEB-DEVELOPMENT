@@ -1,0 +1,21 @@
+# Browser:- browser sirf javascript ko samjhta hai. , not c++ ,python , java , ....etc.
+
+# javascript:- direct access nahi karta hai. but agar access karna rahta hai to user permition leta hai.
+-> c++ -> direct access kar leta hai. , no user permition.
+-> It is easy to use.
+-> security(HTML /CSS/mouse..)-> direct dusre website per jake koi bhi data ko nahi ura sakta hai. , isme browser khud block ker deta hai -> aap kisi data ko direct access nahi ker sakte hai.
+-> it is lightweight -> fast run hota hai.
+-> v8 engine sirf browser ke ander hota hai.
+
+# javascript ko understand karta hai v8 engine to fir output me deta hai(jo input lete hai).
+-> v8 engine ek code hai jo c++ me likha gaya hai.
+-> v8 engine -> input me javascript ka code leta hai aur output generate  karke de deta hai.
+-> c++ code ko compile karke machine code me badalta hai uske bad machine code run karke output generate karta hai.
+-> javascript is the interpreter language hota hai jo code ko line by line execute karta hai.
+-> c++ code machine dependent code hota hai.
+
+# NodeJs:- javascript run-tme evirnoment iska matlab javascript ko run ker sakta hai.
+-> NodeJs ke ander v8 engine persent hai.
+-> NodeJs ki madat se hum javascript ko kahi bhi run kar sakte hai. that like browser , fronted , backend , vscode , .... etc.
+-> But agar nodejs ko install nahi karte hai to javascript ko sirf browser me hi run ker sakt the.
+
