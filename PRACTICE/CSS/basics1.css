@@ -1,0 +1,179 @@
+/* ================================= */
+/* CSS DAY 1 STYLESHEET */
+/* ================================= */
+
+/* 
+BODY STYLING
+Applies to whole webpage
+*/
+
+body {
+
+    background-color: rgb(244, 244, 244);
+
+    font-family: Arial, sans-serif;
+
+    margin: 20px;
+
+}
+
+/* ================================= */
+/* MAIN HEADING */
+/* ================================= */
+
+.main-heading {
+
+    color: red;  
+
+    font-size: 40px;
+
+    text-align: center;
+
+}
+
+/* SUBTITLE */
+
+.subtitle {
+
+    text-align: center;
+
+    color: gray;
+
+}
+
+/* ================================= */
+/* EXTERNAL CSS EXAMPLE */
+/* ================================= */
+
+.external-example {
+
+    color: blue;
+
+    font-weight: bold;
+
+}
+.color-example{
+    color: red;
+}
+
+/* ================================= */
+/* TEXT COLORS */
+/* ================================= */
+
+.blue-text {
+
+    color: blue;
+
+}
+
+.orange-text {
+
+    color: rgb(180, 117, 0);
+
+}
+
+.purple-text {
+
+    color: purple;
+
+}
+
+/* ================================= */
+/* BACKGROUND COLORS */
+/* ================================= */
+
+.background-box {
+
+    background-color: lightblue;
+
+    /* padding: 20px; */
+
+}
+
+/* ================================= */
+/* FONT STYLING */
+/* ================================= */
+
+.font-example {
+
+    font-family: Georgia, serif;
+
+    font-size: 22px;
+
+    font-weight: bold;
+
+}
+
+/* ================================= */
+/* TEXT ALIGNMENT */
+/* ================================= */
+
+.left-text {
+
+    text-align: left;
+
+}
+
+.center-text {
+
+    text-align: center;
+
+}
+
+.right-text {
+
+    text-align: right;
+
+}
+
+/* ================================= */
+/* TEXT DECORATION */
+/* ================================= */
+
+.underline-text {
+
+    text-decoration: underline;
+
+}
+
+.line-through-text {
+
+    text-decoration: line-through;
+
+}
+
+.no-decoration-link a {
+
+    text-decoration: none;
+
+}
+
+/* ================================= */
+/* CSS UNITS */
+/* ================================= */
+
+.px-example {
+
+    font-size: 24px;
+
+}
+
+.percent-example {
+
+    width: 50%;
+
+    background-color: lightgreen;
+
+}
+
+.em-example {
+
+    font-size: 2em;
+
+}
+
+.rem-example {
+
+    font-size: 2rem;
+
+}
