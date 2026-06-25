@@ -1,0 +1,277 @@
+/* ================================= */
+/* CSS DAY 3 STYLESHEET */
+/* ================================= */
+
+body {
+
+    margin: 0;
+
+    font-family: Arial, sans-serif;
+
+}
+
+/* ================================= */
+/* NAVBAR */
+/* ================================= */
+
+.navbar {
+
+    background-color: darkblue;
+
+    color: white;
+
+    padding: 15px;
+
+    position: sticky;
+
+    top: 0;
+
+}
+
+.nav-links {
+
+    list-style: none;
+
+}
+
+.nav-links li {
+
+    display: inline-block;
+
+    margin-right: 20px;
+
+}
+
+.nav-links a {
+
+    color: white;
+
+    text-decoration: none;
+
+}
+
+/* ================================= */
+/* HERO SECTION */
+/* ================================= */
+
+.hero-section {
+
+    background-color: lightblue;
+
+    text-align: center;
+
+    padding: 80px;
+
+}
+
+/* ================================= */
+/* BLOCK ELEMENT */
+/* ================================= */
+
+.block-box {
+
+    background-color: orange;
+
+    display: block;
+
+    padding: 20px;
+
+    margin-bottom: 20px;
+
+}
+
+/* ================================= */
+/* INLINE ELEMENT */
+/* ================================= */
+
+.inline-box {
+
+    background-color: pink;
+
+    padding: 10px;
+
+}
+
+/* ================================= */
+/* INLINE BLOCK */
+/* ================================= */
+
+.inline-block-box {
+
+    display: inline-block;
+
+    width: 150px;
+
+    height: 100px;
+
+    background-color: lightgreen;
+
+    margin-right: 20px;
+
+    text-align: center;
+
+    line-height: 100px;
+
+}
+
+/* ================================= */
+/* RELATIVE POSITION */
+/* ================================= */
+
+.relative-box {
+
+    width: 200px;
+
+    height: 100px;
+
+    background-color: yellow;
+
+    position: relative;
+
+    top: 20px;
+
+    left: 30px;
+
+}
+
+/* ================================= */
+/* ABSOLUTE POSITION */
+/* ================================= */
+
+.parent-box {
+
+    width: 400px;
+
+    height: 200px;
+
+    background-color: lightgray;
+
+    position: relative;
+
+}
+
+.absolute-box {
+
+    width: 150px;
+
+    height: 80px;
+
+    background-color: red;
+
+    color: white;
+
+    position: absolute;
+
+    top: 20px;
+
+    right: 20px;
+
+}
+
+/* ================================= */
+/* FIXED BUTTON */
+/* ================================= */
+
+.fixed-button {
+
+    position: fixed;
+
+    bottom: 20px;
+
+    right: 20px;
+
+    padding: 15px;
+
+    background-color: darkblue;
+
+    color: white;
+
+    border: none;
+
+}
+
+/* ================================= */
+/* STICKY BOX */
+/* ================================= */
+
+.sticky-box {
+
+    position: sticky;
+
+    top: 80px;
+
+    background-color: purple;
+
+    color: white;
+
+    padding: 20px;
+
+}
+
+/* ================================= */
+/* Z-INDEX */
+/* ================================= */
+
+.zindex-container {
+
+    position: relative;
+
+    height: 250px;
+
+}
+
+.red-box {
+
+    width: 200px;
+
+    height: 200px;
+
+    background-color: red;
+
+    position: absolute;
+
+    top: 20px;
+
+    left: 20px;
+
+    z-index: 1;
+
+}
+
+.blue-box {
+
+    width: 200px;
+
+    height: 200px;
+
+    background-color: blue;
+
+    position: absolute;
+
+    top: 80px;
+
+    left: 80px;
+
+    z-index: 2;
+
+    color: white;
+
+}
+
+/* ================================= */
+/* OVERFLOW */
+/* ================================= */
+
+.overflow-box {
+
+    width: 300px;
+
+    height: 100px;
+
+    overflow: auto;
+
+    border: 2px solid black;
+
+    padding: 15px;
+
+}
