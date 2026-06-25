@@ -1,0 +1,21 @@
+# stack:- size will be small.
+-> It is static data(size fixed hota hai.)
+-> stack me data allocate ek ke bad ek karke hota hai.
+-> static data ko stack me store karte hai kiyonki inka size fixed hota hai.
+
+# Heap:- size will be large.
+-> heap me jhan space dikha wahi data allocate ho jata hai. isme heap ki margy.
+-> jab bhi heap ke ander memory allocation hoga uska address ko stack me store karunga.
+-> It is dynamic data (size fixed nahi hota hai.)
+-> dynamic data ko heap ke ander store karte hai aur unke address ko stack ke ander store karte hai.
+-> jitne bhi data ko store karana hai to wo kha store hote hai heap me chahe wo primitive or non-primitive.
+
+# 1 byte -> 8 bit , 4 byte -> 32 bit
+
+# javascript:- jab program start -> true , false , null, and undefine ke location ko fixed kar diya jata hai heap ke ander pahele hi.
+-> javascript me number ko represent karne ke liye 8 yte hota hai.
+-> agar last digit 0 hoga to number ko represent kar rha hai. aur last digit 1 -> actual address per jata hai.
+
+# Garbegcollector:- memory ko delocate karna.
+->work:- ye stack me gaya fir wo dekhega ki jo element hai wo kisko kisko point kar rha hai phir wo heap me jaker jo point nahi kar rha tha usko remove ker deta hai.
+-> element = baseAddress+index number * sizeofdata

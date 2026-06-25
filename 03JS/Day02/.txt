@@ -1,0 +1,32 @@
+# Variable create:- keyword(let) VariableName = any value; 
+-> print:- console.log(VariableName);
+
+# let keyword :- value change kar sakte hai same variable me.
+-> let age = 19; , age = 30; -> print:- 30
+-> let me same variable ko multiple times declaire hone nahi deta hai.
+
+# const keyword :- not value change in same variable that likes.
+-> const account = 1234; , account = 23; -> print:- 1234
+-> isme condition hai ki jab variable declaire karte usi time value dena hai.
+
+# var keyword(old way):- same variable ko multiple times declaire kar sakte hai.
+-> It is respect for global scope and functional scope ko only.
+
+# undefine:- agar hum variable ko declaire kiye hai aur usme koi bhi value nahi dala hai to hum undefine kah sakte hai.
+-> variable me value doesnot exist . 
+
+# null:- variable me value to exist to kar rahi but current me nahi hai. to hum null ka use karte hai. 
+null kis typeof ka hai -> object hai.
+
+# symbol:- ye unique cheejo ko create karne ke liye use hota hai. 
+
+# function:- javascript ke ander jo function hai use kisi variable ke ander store bhi ker sakte hai.
+
+# non-primitive dat type:-  all non-primitive ka typeof object hai.
+-> It is mutable(iko change kiya ja sakta hai).
+-> pass reference value.
+
+# primitive data type:- iska typeof khud hote hai jaise nuber ka typeof number hai. but exception null ka typeof object hai.
+-> It is immutable(can not be change data).
+-> jo hamare pas variable honge uske ander new value assign kara sakte hai. lekin jo value honge inko kabhi bhi change nahi kara ja sakta hai.
+-> It is pass by value or copy.
