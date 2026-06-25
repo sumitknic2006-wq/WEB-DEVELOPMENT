@@ -1,0 +1,69 @@
+What is CSS?
+
+CSS stands for:
+
+Cascading Style Sheets
+
+CSS is used to style webpages.
+
+Without CSS:
+
+websites look plain
+no colors
+no spacing
+no design
+
+| Technology | Purpose   |
+| ---------- | --------- |
+| HTML       | Structure |
+| CSS        | Styling   |
+
+Example:
+
+HTML → Skeleton
+CSS → Clothes & Design
+CSS Syntax
+selector {
+    property: value;
+}
+
+Example:
+
+h1 {
+    color: blue;
+}
+
+
+CSS Selectors
+
+Selectors choose elements to style.
+
+Example:
+
+p {
+   color: red;
+}
+
+Targets all paragraphs.
+
+Ways to Apply CSS
+1. Inline CSS
+<h1 style="color:red;">Hello</h1>
+
+❌ Not preferred for large projects.
+
+2. Internal CSS
+
+Inside <style> tag.
+
+<style>
+h1 {
+   color: blue;
+}
+</style>
+
+
+3. External CSS ✅ (BEST METHOD)
+<link rel="stylesheet" href="style.css">
+
+Professional developers use this.
