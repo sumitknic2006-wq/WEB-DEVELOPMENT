@@ -1,0 +1,14 @@
+# Comparision Operator:-
+-> jab number and string compare(string convert number)
+-> type check(dono same type ke hone chaiye ===, uske bad wo comparision).
+
+# NaN -> Not a Number. , NaN -> typeof -> number.
+--> do not equal -> (NaN != NaN ) -> true , (NaN == NaN) -> false
+
+# convert number -> boolean:- positive and negative number -> true , zero(0) -> false value deta hai. 
+
+# convert string -> boolean :- string any character value de do -> true , but string empty -> falls.
+
+# && Operater: If first value is false, it will return the first value itself
+--> If first value is true, it will return second.
+
