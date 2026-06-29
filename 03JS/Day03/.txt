@@ -13,7 +13,7 @@
 # 1 byte -> 8 bit , 4 byte -> 32 bit
 
 # javascript:- jab program start -> true , false , null, and undefine ke location ko fixed kar diya jata hai heap ke ander pahele hi.
--> javascript me number ko represent karne ke liye 8 yte hota hai.
+-> javascript me number ko represent karne ke liye 8 byte hota hai.
 -> agar last digit 0 hoga to number ko represent kar rha hai. aur last digit 1 -> actual address per jata hai.
 
 # Garbegcollector:- memory ko delocate karna.
