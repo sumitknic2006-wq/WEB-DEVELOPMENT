@@ -1,0 +1,25 @@
+# syntax:-  console.log(b.toFixed(2));
+--> toFixed(number) :-> point ke bad kitna number lena chahte hai.;
+--> toFixed ka typeof string hota hai.
+
+# toPrecision(number):- kitna precisize value chahiye start to kitna number lena chahte hai.
+
+# toString:- ise use karke any number ko string me convert ker sakta hun.
+
+# let a = new Number(20); --> agar number ko object ki tarah treet karna chahte to es method ka use kare.
+--> jab bhi object ka comparision hote hai to reference ke basis per hote hai.
+--> object only reference ko check karta hai.
+
+---> agar object -> empty,usme hai , array  ko boolean me comparision karte to wo always true deta hai. but null -> false.
+
+# Non Primitive: reference bases per compare.
+-> Primitive: Copy by value ke basis per compare.
+let a = 10;
+let b =a;
+console.log(a==b);
+
+# Math.random() -> ek random value generate karta hai.
+--> [0,1]: It will generate value between 0 and 1, where 0 is included but 1 is not included
+
+# formula:- Math.floor(Math.random()*totalNumberOfOutcome)+shift
+=> Math.floor(Math.random()*(max-min+1))+min
