@@ -1,0 +1,20 @@
+# back treek(``) ke madat se hum string ko bhi create kar sakte hai. 
+-> Iski madat se hum multiple lines me bhi text ko likh sakte hai.
+-> isme ek help milta hai any variable ka name likhe ge to wo ek value us variable ka return karta hai.
+that likes : const day = 18;
+-> const str3 = `Strike ${day}`; , o/p:- Strike 18
+
+# indexOf: -> ye ek string me ek substring ka index batata hai. but substring contineous form me rhna chahiye. -> return substring ka first index.
+-> If not contineous then can be return -1.
+
+# slice:- positive index:- start for index 0.
+-> negative index:- start for end index -1.
+-> substring me negative index ko markdown nahi kar sakte.
+
+# .trim():- string me starting aur ending wale space gayab kar dega . 
+-> .trimStart() / .trimEnd():- start space -> gayab / end space -> gayab.
+
+# Date:- 
+-> const now = new Date();
+-> console.log(now.toString());
+
