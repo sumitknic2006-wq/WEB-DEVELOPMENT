@@ -1,0 +1,5 @@
+# javascript:- array me ek variable ke ander multiple types ke data ko rakh sakte hai. , number , string .
+
+# unshift:- array ke starting(first position) me value ko add karta hai.
+# shift:- array ke starting me value ko delete karta hai.
+-> shift and unshift ko jayada use na kare kiyonki performance gir jati hai.
