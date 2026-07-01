@@ -1,0 +1,6 @@
+# Object:- always to the key value pair me hoti hai.
+-> any information ko structure way me store karta hai.
+
+# this keyword:- refer to the jo call karta hai 
+
+# javascript me address 8 byte store karta hai.
