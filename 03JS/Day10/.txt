@@ -1,0 +1,5 @@
+# javscript:- jab bhi hum code run karte hai to ek execution context create hota hai. 
+--> execution context means do phase me run hota hai. -> (i) memory allocation, (ii) Execution phase
+
+
+# hosting:- Execution phase aane se phle code ko pata hota hai ki kon sa variable , function persent hai.
