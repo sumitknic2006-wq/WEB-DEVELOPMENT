@@ -1,0 +1,25 @@
+# single threaded :- ek bar me ek hi task execute hoga idi ko single threade kahte hai , ek kam ko puri trah se execute kar lega uske bad execute hoga.
+
+# synchronous :- step by step print karta hai iska matlab synchronous way me.
+
+# jaavascript:- javascript kisi ke liye wait nahi karta hai. , lagatart execute hote rhta hai.
+->> javascript singlethreads and synchronous both hai.
+--->> javascript kabhi bhi code ko block hone nahi deta hai.
+
+# API(Application Programing Interference):- API ek function call hai.  , API ka only kam hai function ko call karna. , api ko koi malab naji usme kya likha gya hai.
+
+# window object :- window object ek global object hai.
+-> web API ko access browser deta hai.
+
+# web API access deta hai kisko:- 
+-> setTimeout/setInterval
+-> DOM api
+-> fetch
+-> local storage
+-> console.log
+
+# Event loop:- Event loop ka eke hi kam hota hai ki check karte rho ki kya mere cllback queue me koi data persent hai ya nahi.
+-> Agar data persent hai to wo stack me dal de deta hai. But stack pahele se empty hona chahiye.
+
+-->>> jo bhi operation fetch me hote hai uske data microtask queue me aate hai .
+--> priority:- microtask queue > callback queue.
