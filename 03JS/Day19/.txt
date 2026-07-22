@@ -1,0 +1,17 @@
+# json(javascript object notation):- ye all language ko samajhta hai. 
+--->> json ke ander undefined nahi likh sakte .
+--->> json ke ander function persent nahi ho sakte.
+--->> json ek string hai. , means string formate.
+
+# fullfild catoagry:- server ne reply kiya hai ki ye data mere me persent hai ya nahi to use fullfild cateogry me dala jayega.
+
+# reject catoagry:- server se bat hi nahi kar paya.
+-> Internet down
+-> server down
+-> DNS down
+-> DNS:- ye url ko ip address me convert karta hai.
+
+# Promissed means pahela task jab tak complete na ho tab tak dusre task ko call nahi karuga.
+-> promissed ka matlab jab tak pehela task complete ho gya to uske bad dusre task ko call karunga. wase hi dusra task complrte uske bad tisre task ko call karunga.
+
+# finally :- fainally ka kam hota hai jo screen per loader hai usko hatane ke liye , jab answer aa jata hai to
