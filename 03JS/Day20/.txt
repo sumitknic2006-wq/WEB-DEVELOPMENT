@@ -1,0 +1,3 @@
+# agar kio function ke aage async use karte hai to hame wo promise return karke deta hai.
+
+# await:- await means jab tak data nahi aayega tab tak wait karega , aage nahi badega.
