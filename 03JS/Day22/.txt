@@ -1,0 +1,10 @@
+# strict mode:- do not forgiving write. 
+
+# window object ek global object hai , ye java script ka part nahi hai.
+--> window object browser create karke deta hai.
+--> window object ek web api hai. , jisse hum bahut sare feature ko enable kar sakte hai.
+--> window object ko browser to samjhata hai lekin node js nahi samajhta hai.
+
+# node js me global object hota hai lekin uska nam hai global.
+
+# this keyword empty object ko point out karta hai lekin window ke ander global object ko point out karta hai.
